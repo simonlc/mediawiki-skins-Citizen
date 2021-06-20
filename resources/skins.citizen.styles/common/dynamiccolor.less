@@ -1,0 +1,56 @@
+:root {
+	--color-primary__hue: 220;
+	--color-primary__saturation: 60%;
+	--color-primary__lightness: 50%;
+	--color-primary: ~'hsl( var( --color-primary__hue ) var( --color-primary__saturation ) var( --color-primary__lightness ) )';
+
+	--color-text1: ~'hsl( var( --color-primary__hue ) var( --color-primary__saturation ) 10% )';
+	--color-text2: ~'hsl( var(--color-primary__hue ) 30% 30% )';
+	--color-text3: ~'hsl( var(--color-primary__hue ) 10% 50% )';
+
+	--color-surface-1: ~'hsl( var( --color-primary__hue ) 20% 96% )';
+	--color-surface-2: ~'hsl( var( --color-primary__hue ) 20% 92% )';
+	--color-surface-3: ~'hsl( var( --color-primary__hue ) 25% 90% )';
+	--color-surface-4: ~'hsl( var( --color-primary__hue ) 20% 85% )';
+
+	/*
+	 * Legacy color
+	 * TODO: Convert all usage to the new color system
+	 * TODO: Notify wiki admins of the upcoming change
+	 */
+
+	/* Background Colors */
+	--background-color-dp-00: ~'var( --color-surface-1 )';
+	--background-color-dp-01: ~'var( --color-surface-2 )';
+	--background-color-dp-02: ~'var( --color-surface-2 )';
+	--background-color-dp-03: ~'var( --color-surface-2 )';
+	--background-color-dp-04: ~'var( --color-surface-2 )';
+	--background-color-dp-06: ~'var( --color-surface-3 )';
+	--background-color-dp-08: ~'var( --color-surface-3 )';
+	--background-color-dp-12: ~'var( --color-surface-3 )';
+	--background-color-dp-16: ~'var( --color-surface-4 )';
+	--background-color-dp-24: ~'var( --color-surface-4 )';
+
+	--background-color-framed: ~'var( --color-surface-2 )';
+
+	/* Foreground Colors */
+	--color-base: var( --color-text2 );
+	--color-base--emphasized: var( --color-text1 );
+	--color-base--subtle: var( --color-text3 );
+
+	--color-link: var( --color-primary );
+
+	/* Dark theme */
+	&.skin-citizen-dark {
+		--color-primary__saturation: 50%;
+		--color-primary__lightness: 45%;
+		--color-text1: ~'hsl( var( --color-primary__hue ) 15% 85% )';
+		--color-text2: ~'hsl( var( --color-primary__hue ) 5% 65% )';
+		--color-text3: ~'hsl( var( --color-primary__hue ) 2% 50% )';
+
+		--color-surface-1: ~'hsl( var( --color-primary__hue ) 10% 10% )';
+		--color-surface-2: ~'hsl( var( --color-primary__hue ) 10% 15% )';
+		--color-surface-3: ~'hsl( var( --color-primary__hue ) 5% 20% )';
+		--color-surface-4: ~'hsl( var( --color-primary__hue ) 5% 25% )';
+	}
+}
