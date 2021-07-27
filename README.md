@@ -12,7 +12,7 @@ Live demo can be seen at the [Star Citizen Wiki](https://star-citizen.wiki), mor
 - **Collapsible sections**: Collapse and expand article sections. ***Require JS*** 📖📕
 - **Persistent ToC**: Access ToC anywhere in the article. ***Tracking require JS*** 🔍📖
 - **Rich search suggestions**: More helpful search suggestions with images and descriptions. ***Require JS*** 🔍👀
-- **Webapp manifest**: Give a more app-like experience when user add your wiki to their home screen. 📱
+- **Webapp manifest**: Give a more app-like experience when users add your wiki to their home screen. 📱
 - **HTTP security response headers**: Enhance the security of your wiki from HTTP response headers. 🔒🔑
 
 ## Installation
