@@ -14,6 +14,10 @@ body {
 	color: var( --color-base );
 }
 
+:focus {
+	outline-color: var( --color-primary );
+}
+
 h1,
 h2,
 h3,
@@ -68,8 +72,8 @@ pre,
 input,
 select,
 textarea {
-	border: 1px solid var( --border-color-input );
-	background-color: var( --background-color-input );
+	border: 1px solid var( --border-color-base );
+	background-color: var( --color-surface-1 );
 	color: inherit;
 }
 
@@ -232,14 +236,14 @@ video {
 
 		// Have to hardcode the color since the filter breaks the color
 		a {
-			color: @color-link;
+			color: @color-primary;
 
 			&:hover {
-				color: @color-link--hover;
+				color: @color-primary--hover;
 			}
 
 			&:active {
-				color: @color-link--active;
+				color: @color-primary--active;
 			}
 		}
 	}
