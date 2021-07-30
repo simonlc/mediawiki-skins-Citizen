@@ -1,6 +1,6 @@
 {
 	"name": "Citizen",
-	"version": "1.9.3",
+	"version": "1.9.4",
 	"author": [
 		"[https://www.mediawiki.org/wiki/User:Alistair3149 Alistair3149]",
 		"[https://www.mediawiki.org/wiki/User:Octfx Octfx]",
@@ -376,9 +376,13 @@
 
 			"+ext.ApprovedRevs": "skinStyles/extensions/ApprovedRevs/ext.ApprovedRevs.less",
 
+			"+ext.babel": "skinStyles/extensions/Babel/ext.babel.less",
+
 			"+ext.categoryTree.css": "skinStyles/extensions/CategoryTree/ext.categoryTree.css.less",
 
 			"+ext.cite.styles": "skinStyles/extensions/Cite/ext.cite.styles.less",
+
+			"+ext.cleanchanges.uls": "skinStyles/extensions/CleanChanges/ext.cleanchanges.uls.less",
 
 			"+ext.CodeMirror.lib": "skinStyles/extensions/CodeMirror/ext.CodeMirror.lib.less",
 			"+ext.CodeMirror.visualEditor.init": "skinStyles/extensions/CodeMirror/ext.CodeMirror.visualEditor.init.less",
@@ -476,14 +480,29 @@
 			"+ext.tmh.player.styles": "skinStyles/extensions/TimedMediaHandler/ext.tmh.player.styles.less",
 
 			"+ext.translate": "skinStyles/extensions/Translate/ext.translate.less",
-			"+ext.translate.editor": "skinStyles/extensions/Translate/ext.translate.editor.less",
-			"+ext.translate.loader": "skinStyles/extensions/Translate/ext.translate.loader.less",
+			"+ext.translate.dropdownmenu": "skinStyles/extensions/Translate/ext.translate.dropdownmenu.less",
+			"+ext.translate.specialpages.styles": "skinStyles/extensions/Translate/ext.translate.specialpages.styles.less",
 			"+ext.translate.messagetable": "skinStyles/extensions/Translate/ext.translate.messagetable.less",
+			"+ext.translate.quickedit": "skinStyles/extensions/Translate/ext.translate.quickedit.less",
+			"+ext.translate.messagerenamedialog": "skinStyles/extensions/Translate/ext.translate.messagerenamedialog.less",
+			"+ext.translate.groupselector": "skinStyles/extensions/Translate/ext.translate.groupselector.less",
+			"+ext.translate.editor": "skinStyles/extensions/Translate/ext.translate.editor.less",
+			"+ext.translate.special.managetranslatorsandbox": "skinStyles/extensions/Translate/ext.translate.special.managetranslatorsandbox.less",
 			"+ext.translate.special.translate": "skinStyles/extensions/Translate/ext.translate.special.translate.less",
+			"+ext.translate.special.translate.styles": "skinStyles/extensions/Translate/ext.translate.special.translate.styles.less",
+			"+ext.translate.specialTranslationStash": "skinStyles/extensions/Translate/ext.translate.specialTranslationStash.less",
+			"+ext.translate.translationstats.graphbuilder": "skinStyles/extensions/Translate/ext.translate.translationstats.graphbuilder.less",
+			"+ext.translate.statsbar": "skinStyles/extensions/Translate/ext.translate.statsbar.less",
+			"+ext.translate.statstable": "skinStyles/extensions/Translate/ext.translate.statstable.less",
 			"+ext.translate.tag.languages": "skinStyles/extensions/Translate/ext.translate.tag.languages.less",
 
 			"+ext.uls.common": "skinStyles/extensions/UniversalLanguageSelector/ext.uls.common.less",
-			"+ext.uls.pt": "skinStyles/extensions/UniversalLanguageSelector/ext.uls.pt.less",
+			"+ext.uls.compactlinks": "skinStyles/extensions/UniversalLanguageSelector/ext.uls.compactlinks.less",
+			"+ext.uls.displaysettings": "skinStyles/extensions/UniversalLanguageSelector/ext.uls.displaysettings.less",
+			"+ext.uls.interface": "skinStyles/extensions/UniversalLanguageSelector/ext.uls.interface.less",
+			"+ext.uls.interlanguage": "skinStyles/extensions/UniversalLanguageSelector/ext.uls.interlanguage.less",
+			"+ext.uls.languagesettings": "skinStyles/extensions/UniversalLanguageSelector/ext.uls.languagesettings.less",
+			"+ext.uls.setlang": "skinStyles/extensions/UniversalLanguageSelector/ext.uls.setlang.less",
 
 			"ext.CookieWarning.styles": "skinStyles/extensions/CookieWarning/ext.CookieWarning.styles.less",
 
